@@ -1,0 +1,5 @@
+This is an implementation of MVC pattern in javascript
+
+run index.html
+
+used jQuery and underscore.js to work with collections

@@ -1,0 +1,9 @@
+This is an implementation of search string engine in C#
+
+Filter takes collection and search string as input and returns filtered collection
+
+Filter is fully configurable (can be used with any type) via specific collections with keys, operators and rules
+
+- LUA script language is used to dynamically evaluate list item against search string rules
+- RegEx are used to parse input search string and build specific string with rules for LUA
+- Filter can work with collection of any type

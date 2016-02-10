@@ -1,0 +1,63 @@
+input {
+    border-radius: 5px;
+    height: 39px;
+    padding:10px;
+    width: 100px;
+    box-shadow: none;
+    padding: 10px;
+    border: solid 2px #777777;
+    transition: border 0.3s;
+    width:265px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size:40pt;
+    color: #4e4e4e;
+    margin-bottom:15px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+button.remove {
+    border: 2px solid darkred;
+    color:darkred;
+}
+
+button.add {
+    border: 2px solid mediumseagreen;
+    color:mediumseagreen;
+}
+
+button.remove:hover {
+    background-color: darkred;
+    color:white;
+}
+
+button.add:hover {
+    background-color: mediumseagreen;
+    color:white;
+}
+
+select {
+    width:500px;
+    border: 2px solid #777777;
+    border-radius: 5px;
+    padding:5px 8px;
+    font-size:14px;
+    line-height: 30px;
+}
+
+div.controls {
+    margin-top:10px;
+}
+
+div.container {
+    width:500px;
+    margin:0 auto;
+}
